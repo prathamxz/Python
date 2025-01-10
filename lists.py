@@ -12,6 +12,20 @@ print(marks[len(marks)-3]) #Postive indexing
 print(marks[4-2]) #Postive indexing
 print(marks[2]) #Postive indexing
 
+if 7 in marks :
+    print("Yes")
+else:
+    print("No")
+
+if "pratham" in marks :
+    print("Yes")
+else:
+    print("No")
+
+if "am" in "pratham" :
+    print("Yes")
+else:
+    print("No") 
 
 
 # Python Lists
