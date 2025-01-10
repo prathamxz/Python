@@ -7,6 +7,10 @@ print(marks[3])
 print(marks[4])
 # print(marks[4]) # IndexError: list index out of range
 
+print(marks[-3]) #Negative indexing
+print(marks[len(marks)-3]) #Postive indexing
+print(marks[4-2]) #Postive indexing
+print(marks[2]) #Postive indexing
 
 
 
