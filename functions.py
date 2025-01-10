@@ -13,6 +13,9 @@ def isGreater (c,d):
     else:
         print("Second number is greater/equal than first number")
 
+def isLesser (a,b):
+    pass # do nothing is command for python where it does not do anything for function
+
 a = 5
 b=6
 isGreater(a,b)
