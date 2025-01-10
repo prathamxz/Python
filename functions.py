@@ -16,8 +16,8 @@ def isGreater (c,d):
 def isLesser (a,b):
     pass # do nothing is command for python where it does not do anything for function
 
-a = 5
-b=6
+a = int(input("Enter first number: "))
+b= int(input("Enter second number: "))
 isGreater(a,b)
 # if(a>b):
 #     print("First number is greater than second number")
@@ -27,9 +27,10 @@ calculateGmean(a,b)
 # gmean1=(a*b)/(a+b)
 # print(gmean1)
 
-c=2
-d=1
+c=int(input("Enter first number: "))
+d=int(input("Enter second number: "))
 isGreater(c,d)
+calculateGmean(c,d)
 # if(c>d):
 #     print("First number is greater than second number")
 # else:
@@ -37,7 +38,7 @@ isGreater(c,d)
 
 # gmean2=(c*d)/(c+d)
 # print(gmean2)
-calculateGmean(c,d)
+
 
 
 # Functions:
