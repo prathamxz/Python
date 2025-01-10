@@ -1,27 +1,18 @@
 import time
 
-timestamp = (time.strftime('%H:%M:%S'))
-print(timestamp)
+# Get the current hour
+hour = int(time.strftime('%H'))
 
-timestamp = int (time.strftime('%H'))
-print(timestamp)
+# Alternatively, you can ask the user to input the hour
+# hour = int(input("Enter hour: "))
 
-timestamp = int (time.strftime('%M'))
-print(timestamp)
+print(hour)
 
-timestamp = int (time.strftime('%S'))
-print(timestamp)
-
-if (timestamp >= 6 and timestamp < 12):
-    print("Good Morning")
-
-elif (timestamp >= 12 and timestamp < 18):
-    print("Good Afternoon")
-elif (timestamp >= 18 and timestamp < 24):
-    print("Good Evening")
-elif (timestamp >= 24 and timestamp < 6):
-    print("Good Night")
+if hour >= 0 and hour < 12:
+    print("Good Morning Sir!")
+elif hour >= 12 and hour < 17:
+    print("Good Afternoon Sir!")
+elif hour >= 17 and hour < 24:
+    print("Good Night Sir!")
 else:
-    print("Invalid time")
-
-# https://docs.python.org/3/library/time.html#time.strftime
+    print("Invalid hour!")
