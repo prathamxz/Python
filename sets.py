@@ -6,5 +6,5 @@ print(a)
 info = {"Aero", 19 , False, 33.44,19}
 print(info)
 
-harry=set()     #empty set
+harry=set()         #Empty set
 print(type(harry))
