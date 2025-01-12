@@ -22,4 +22,7 @@ info = {
 print(info.keys())
 
 for keys in info.keys ():
-    print(info[keys])
+    print(f"The value corresponding to the keys {keys} is {info[keys]}")
+
+for keys, value in info.items():
+    print(f"The value corresponding to the keys {keys} is {value}")
