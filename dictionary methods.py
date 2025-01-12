@@ -7,3 +7,5 @@ print(ep1)
 ep1.pop(21)
 print(ep2)
 print(ep2.popitem())
+del ep2[34]
+print(ep2)
