@@ -9,3 +9,5 @@ for i in [ ]:
 
 else:
     print("Sorry no i")
+
+# Output: Sorry no i
