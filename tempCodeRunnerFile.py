@@ -1,3 +1,1 @@
-
-# print(info['Name'])
-# print(info.get('Name'))
+def func1():
