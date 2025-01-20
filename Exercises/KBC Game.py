@@ -1,15 +1,17 @@
+                       #####Incomplete#####
+
 Questions = [
     ["Which language was used to create facebook ?",
-"Python","Java","C","PHP","French","None",5],
+"Python","Java","C","PHP","French","None",4],
 
     ["Which language was used to create insta ?",
 "Python","Java","C","PHP","French","None",5],
 
     ["Which language was used to create whatsapp ?",
-"Python","Java","C","PHP","French","None",5],
+"Python","Java","C","PHP","French","None",3],
 
     ["Which language was used to create facetime ?",
-"Python","Java","C","PHP","French","None",5]
+"Python","Java","C","PHP","French","None",1]
 ]
 
 levels = [1000, 2000, 3000, 5000,8000,12000,15000,19000,23300,123322]
@@ -28,6 +30,8 @@ for i in range(0 , len(Questions)):
             money = 10000
         elif i == 9:
             money = 1000000
+        elif i == 14:
+            money = 10000000
     else:
         print("Sorry! Your answer is wrong, you have won Rs 0")
         break
