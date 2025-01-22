@@ -11,7 +11,3 @@
 #     print(f"Marks of student {i} in maths is {m1}")
 #     print(f"Marks of student {i} in sst is {m2}")
 #     print(f"Marks of student {i} in physics is {m3}")
-
-   
-
-
