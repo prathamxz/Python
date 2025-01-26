@@ -5,6 +5,7 @@ class person:
     def info(self):
         print(f"{self.name} is a {self.occupation}")
 a = person()
+b = person()
 
 a.name = "Shubham"
 # print(a.name)
@@ -12,9 +13,12 @@ a.occupation = "ca"
 # print(a.occupation)
 a.info()
 
+b.name = "Nitin"
+b.occupation="accountant"
 
 
 a.info()
+b.info()
 
 
 
@@ -33,4 +37,20 @@ a.info()
 # age = 20
 # Creating an Object:
 # Object is the instance of the class used to access the properties of the class Now lets create an object of the class.
+
+
+
+# self parameter
+# The self parameter is agreference to the current instance of the class, and is used to access variables that belongs to the class.
+# It must be provided as the extra parameter inside the method definition.
 # Example:
+# class Details:
+# name =
+# "Rohan"
+# age = 20
+# def desc(self):
+# print( "My name is", self.name,
+# "and I'm", self.age,
+# "years old.")
+# obj1 = Details()
+# obj1. desc()
