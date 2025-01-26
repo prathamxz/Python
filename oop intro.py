@@ -25,9 +25,6 @@ ad3 = 1000
 
 
 
-
-
-
 # Introduction to Object-oriented programming
 
 # Introduction to Object-Oriented Programming in Python: In programming languages, mainly there are two approaches that are used to write program or code.
